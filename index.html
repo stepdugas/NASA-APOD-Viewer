@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA APOD Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <meta name="description"
+        content="View NASA's Astronomy Picture of the Day with this interactive viewer. Search by date to explore stunning space images!">
+    <meta name="keywords" content="NASA, space, astronomy, picture of the day, APOD, astronomy images">
+    <meta property="og:title" content="NASA APOD Viewer">
+    <meta property="og:description"
+        content="Explore NASA's Astronomy Picture of the Day. Choose a date and discover breathtaking space images!">
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg">
+    <meta property="og:url" content="https://yourgithubpage.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<header>
+    <h1>NASA Astronomy Picture of the Day</h1>
+</header>
+
+<body>
+    <h1 id="title">NASA Astronomy Picture of the Day</h1>
+    <div id="media-container"></div>
+    <p id="explanation">Loading...</p>
+
+    <div class="date-container">
+        <input type="date" id="date-picker">
+        <button id="fetch-button">Get Picture by Date</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>Built by <a href="https://github.com/stepdugas" target="_blank">Stephanie Dugas</a> |
+        <a href="https://www.linkedin.com/in/stephanie-dugas" target="_blank">LinkedIn</a>
+    </p>
+    <p>© 2025 | Data provided by <a href="https://api.nasa.gov/" target="_blank">NASA API</a></p>
+</footer>
+
+
+</html>
