@@ -24,6 +24,9 @@ header {
     -webkit-text-stroke: 2px black;
     font-weight: bold;
     font-family: 'Baloo 2', cursive;
+    padding: 0 20px;
+    width: 100%;
+    position: relative;
 }
 
 
@@ -106,4 +109,31 @@ footer a {
 footer a:hover {
     color: #FF3131; 
 }
+
+
+@media (max-width: 768px) {
+    header {
+        height: 15vh; 
+        font-size: 1.8rem; 
+    }
+
+    #media-container img, #media-container iframe {
+        max-width: 90%; 
+        height: auto; 
+    }
+
+    #explanation {
+        max-width: 90%; 
+        font-size: 1rem; 
+    }
+
+    .date-container {
+        flex-direction: column; 
+    }
+
+    #date-picker, #fetch-button {
+        width: 80%; 
+    }
+}
+
 
