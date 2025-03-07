@@ -113,8 +113,10 @@ footer a:hover {
 
 @media (max-width: 768px) {
     header {
-        height: 15vh; 
-        font-size: 1.8rem; 
+        height: 18vh; 
+        font-size: 1.8rem;
+        line-height: 1.2;
+        padding: 0 10px;
     }
 
     #media-container img, #media-container iframe {
